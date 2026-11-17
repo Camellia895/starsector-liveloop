@@ -1,4 +1,4 @@
-# Starsector LiveLoop — 运行中游戏的热更新开发驾驶舱
+# Starsector LiveLoop — 运行中游戏的热更新开发
 
 > 一个面向 **Starsector（远行星号）modding 研究** 的工具链：JVMTI agent + mod 桥接，
 > 让你**不重启游戏**地修改代码/数据，并立即在画面上看到结果。为 AI 协作的
