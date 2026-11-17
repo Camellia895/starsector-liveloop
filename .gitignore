@@ -1,0 +1,21 @@
+# build outputs
+build/
+*.jar
+*.jar.next
+*.class
+# runtime logs & scratch
+*.log
+session.log
+threads.txt
+smoke_stdout.txt
+test_stdout.txt
+launch_full.log
+# local runtime dirs (not for distribution)
+dcevm/jbr/
+asm-bundle/
+vf_src/
+vineflower_out/
+screen_tmp/
+patched_out/
+results/
+cache/

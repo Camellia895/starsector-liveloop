@@ -1,0 +1,10 @@
+{
+	"id": "SimArena",
+	"name": "SimArena LiveLoop 驾驶舱",
+	"author": "liveloop",
+	"version": "0.1.0",
+	"description": "AI 开发驾驶舱：热更新 + 场景直达 + 战斗统计。配合 _work/liveloop/agent/hotswap-agent.jar 使用（Miko_LiveLoop.bat 启动）。",
+	"gameVersion": "0.98a-RC8",
+	"jars": ["jars/SimArena.jar"],
+	"modPlugin": "simarena.SimArenaModPlugin"
+}

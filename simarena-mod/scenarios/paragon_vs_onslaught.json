@@ -1,0 +1,31 @@
+{
+	"id": "paragon_vs_onslaught",
+	"map": { "minX": -10000, "maxX": 10000, "minY": -7500, "maxY": 7500 },
+	"background": "graphics/backgrounds/background5.jpg",
+	"fleets": {
+		"player": {
+			"tag": "ARENA-A",
+			"goal": "ATTACK",
+			"commandPoints": 300,
+			"ships": [
+				{ "variant": "paragon_Elite", "count": 1 }
+			]
+		},
+		"enemy": {
+			"tag": "ARENA-B",
+			"goal": "ATTACK",
+			"commandPoints": 300,
+			"ships": [
+				{ "variant": "onslaught_Standard", "count": 2 }
+			]
+		}
+	},
+	"env": {
+		"objectives": [
+			[ -4000, 0, "nav_buoy" ],
+			[ 4000, 0, "comm_relay" ]
+		],
+		"asteroids": { "cx": 0, "cy": 0, "width": 14000, "count": 80 }
+	},
+	"sim": { "autoRestart": false }
+}

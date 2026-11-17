@@ -1,0 +1,32 @@
+{
+	"id": "midweight_skirmish",
+	"map": { "minX": -9000, "maxX": 9000, "minY": -6500, "maxY": 6500 },
+	"fleets": {
+		"player": {
+			"tag": "TASK-A",
+			"goal": "ATTACK",
+			"commandPoints": 250,
+			"ships": [
+				{ "variant": "eagle_Assault", "count": 2 },
+				{ "variant": "heron_Strike", "count": 2 },
+				{ "variant": "fury_Attack", "count": 3 }
+			]
+		},
+		"enemy": {
+			"tag": "TASK-B",
+			"goal": "ATTACK",
+			"commandPoints": 250,
+			"ships": [
+				{ "variant": "champion_Assault", "count": 2 },
+				{ "variant": "conquest_Elite", "count": 1 },
+				{ "variant": "venture_Balanced", "count": 2 }
+			]
+		}
+	},
+	"env": {
+		"nebula": [ [ -5000, 3000, 900 ], [ 5500, -3200, 1100 ] ],
+		"objectives": [ [ 0, 0, "sensor_array" ] ],
+		"asteroids": { "cx": 0, "cy": 0, "width": 12000, "count": 60 }
+	},
+	"sim": { "autoRestart": false }
+}
